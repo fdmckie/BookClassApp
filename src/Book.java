@@ -1,0 +1,78 @@
+public class Book {
+
+    private String title;
+    private String author;
+    private String description;
+    private double price;
+    private boolean isInStock;
+
+    // Constructor runs when the keyword 'new' is encountered
+    public Book(){
+    //    System.out.println("The constructor has run");
+    }
+    // Overloaded constructor allows us to pass parameters
+    public Book(String title, String author, String description){
+        this.title = title;
+        this.author = author;
+        this.description = description;
+
+    }
+
+    public String displayText(){
+        return "The book " + title + " is written by " + author + ". The book is about " + description + ".";
+    }
+
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public boolean isInStock() {
+        return isInStock;
+    }
+
+    public void setInStock(boolean inStock) {
+        isInStock = inStock;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
