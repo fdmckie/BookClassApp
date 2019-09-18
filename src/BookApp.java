@@ -7,6 +7,7 @@ public class BookApp {
         b.setAuthor("Joel Murach");
         b.setTitle("Murach's Java Programming 5th Edition");
         b.setDescription("Java programming");
+
         String message = b.displayText();
         System.out.println(message);
 
@@ -14,6 +15,7 @@ public class BookApp {
         b1.setAuthor("Y. Daniel Laing");
         b1.setTitle("Introduction To Java Programming 10th Edition");
         b1.setDescription("Intro to Java programming");
+
         String message1 = b1.displayText();
         System.out.println(message1);
 

@@ -11,10 +11,12 @@ public class Book {
     //    System.out.println("The constructor has run");
     }
     // Overloaded constructor allows us to pass parameters
-    public Book(String title, String author, String description){
+    public Book(String title, String author, String description, double price, boolean isInStock){
         this.title = title;
         this.author = author;
         this.description = description;
+        this.price = price;
+        this.isInStock = isInStock;
 
     }
 
@@ -32,6 +34,7 @@ public class Book {
     }
 
     public String getAuthor() {
+
         return author;
     }
 
